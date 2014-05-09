@@ -1,0 +1,37 @@
+﻿body {
+}
+.logo
+{
+    background:url(https://cdnssl.mediafire.com/images/backgrounds/header/logoDarkFull.png) no-repeat;
+}
+.scroll-area
+{
+    height:250px;
+    position:relative;
+    overflow:auto;
+}
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Custom navbar */
+.navbar-brand ,.navbar-nav>li>a {
+  	padding-left: 30px;
+    padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+.navbar-nav>.active>a {
+	opacity:.6;
+}
+.navbar-right button
+{
+    width:93px;
+}
+.navbar-right>li>a
+{
+    padding:10px;
+}
